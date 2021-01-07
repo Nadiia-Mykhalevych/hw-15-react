@@ -1,3 +1,36 @@
-.Photo {
+.PostS{
+    display: flex;
+    align-items: flex-start;
+    background-color: rgb(14, 24, 31);
+    color: white;
+    width: 60%;
+    margin: auto;
+    margin-top: 50px;
+    padding: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.nickName,
+.postDate{
+    color: grey;
+}
 
+.Name{
+    font-weight: bold;
+}
+
+.Photo{
+    border-radius: 10%;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+.Content{
+    margin: 0;
+}
+
+.Image{
+    border-radius: 10px;
+    width: 50%;
+    margin-top: 10px;
 }
