@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="App">
         <Post author={{
-            name: "Anakin skywalker",
+            name: "Anakin Skywalker",
             photo: ANAKIN_IMAGE,
             nickname: "@dart_vader"
         }}

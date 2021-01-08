@@ -1,36 +1,76 @@
-.PostS{
+.posts{
+    margin: auto;
     display: flex;
-    align-items: flex-start;
+    flex-flow: column;
     background-color: rgb(14, 24, 31);
     color: white;
-    width: 60%;
-    margin: auto;
-    margin-top: 50px;
-    padding: 20px;
+    width: 50%;
+    padding: 15px;
     font-family: 'Roboto', sans-serif;
 }
-.nickName,
-.postDate{
-    color: grey;
+
+.upper {
+    display: flex;
+    flex-flow: row nowrap;
 }
 
-.Name{
-    font-weight: bold;
-}
-
-.Photo{
-    border-radius: 10%;
-    width: 20px;
-    height: 20px;
+.author {
+    width: 50px;
+    height: 50px;
     margin-right: 10px;
 }
 
-.Content{
-    margin: 0;
+.info-data {
+    width: calc(100% - 50px);
+    height: 50px;
 }
 
-.Image{
-    border-radius: 10px;
-    width: 50%;
-    margin-top: 10px;
+.author-data {
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.name-author {
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.Nickname,
+.dot-sign,
+.post-data {
+    color: #888888;
+}
+
+.dot-sign {
+    height: 25px;
+    position: relative;
+    top: -5px;
+    margin: 0 5px;
+    font-weight: 900;
+}
+
+.content-data{
+    width: 100%;
+    display: flex;
+}
+
+.middle {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.image {
+    width: calc(100% - 60px);
+    border-radius: 15px;
+}
+
+.nickName .postDate{
+    color: grey;
+}
+
+.photo{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
 }
